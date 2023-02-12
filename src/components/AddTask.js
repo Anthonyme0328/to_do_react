@@ -39,6 +39,7 @@ const AddTask = ({onAdd}) => {
           type='text' 
           placeholder='Add To Do' 
           value={text} 
+          required
           onChange={(e) => setText(e.target.value)} >
         </input>
 
@@ -54,8 +55,9 @@ const AddTask = ({onAdd}) => {
         <input 
           className='input-box' 
           type='text' 
-          placeholder='Add Day of the Week' 
+          placeholder='Add A Day of the Week or Date' 
           value={day} 
+          required
           onChange={(e) => setDay(e.target.value)} >
         </input>
 

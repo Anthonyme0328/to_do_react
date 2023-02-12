@@ -59,7 +59,7 @@ function App() {
                 onDelete={deleteTask} /> 
             ) 
           : 
-            ('No Current Todos') 
+            ('No Current To Do`s') 
       }
 
     </div>
