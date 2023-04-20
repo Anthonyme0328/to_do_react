@@ -1,4 +1,4 @@
-#To-Do List Application
+# To-Do List Application
 This is a simple to-do list application built with React and Redux. It allows users to add, delete, and update tasks.
 
 ##Getting Started
